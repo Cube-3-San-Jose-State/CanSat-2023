@@ -22,7 +22,7 @@ namespace CanSat
 
         void TakeVideo(int video_length){
             digitalWrite(trig, HIGH);   
-            delay(video_length);               
+            delay(video_length);        
             digitalWrite(trig, LOW); 
             delay(1000);
         }
